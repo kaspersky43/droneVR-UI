@@ -11,7 +11,7 @@
 
 using namespace std;
 
-string MASTER_IP = "169.254.26.174";
+string MASTER_IP = "169.254.228.151";
 int32 MASTER_PORT = 63819;
 
 // Sets default values for this component's properties

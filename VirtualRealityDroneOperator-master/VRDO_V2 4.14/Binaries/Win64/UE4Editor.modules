@@ -1,0 +1,9 @@
+{
+	"Changelist" : 3249277,
+	"CompatibleChangelist" : 3195953,
+	"BuildId" : "",
+	"Modules" : 
+	{
+		"VRDO_V2" : "UE4Editor-VRDO_V2.dll"
+	}
+}
