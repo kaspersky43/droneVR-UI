@@ -1,0 +1,216 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=10pt]{scrartcl} % A4 paper and 12pt font size
+\usepackage[a4paper,left=1in,top=1in,right=1in,bottom=1in,nohead]{geometry} %1in margins
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+
+\usepackage{sectsty} % Allows customizing section commands
+\usepackage{hyperref} % Allows usage of hyperlinks
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+\usepackage[pdftex]{graphicx}
+\newcommand{\foo}{\hspace{-2.3pt}$\bullet$ \hspace{5pt}}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+
+\title{
+\vspace*{-50pt}
+\normalfont \normalsize
+\textbf{DEPARTMENT OF COMPUTER SCIENCE \\ [25pt]}
+\vspace*{-20pt}
+\textbf{COLLEGE OF ARTS AND SCIENCES \\ [17pt]}
+}
+
+
+
+
+\subtitle{
+\vspace*{-20pt}
+\normalfont \normalsize 
+\textsc{CSCI 4961/4962 Capstone Project Plan \\ [20pt]} % Your university, school and/or department name(s)
+}
+
+\author{}
+
+\date{}
+\begin{document}
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	Front page stuff
+%----------------------------------------------------------------------------------------
+
+
+\vspace*{-70pt}
+Title of Project: Multi-User Virtual Reality Interface for Control of Aerial Drones
+
+Client: Dr. Srikanth Gururajan
+
+Supervisor: Dr. David Ferry	
+
+Student(s): Kyle Coleman, Woo Seok Yang, Logan Leavel
+
+\section{Existing Work}
+\begin{itemize}
+	\setlength\itemsep{.25em}
+	\item{A VR environment inside the drone lab at MDD}
+	\item{System that tracks drone position}
+	\item{VR user can manipulate the drone}
+	\begin{itemize}
+		\setlength\itemsep{.25em}
+		\item{User can move the drone (up, down, left, right, forward, backwards)}
+		\item{Flight path is displayed in VR environment}
+	\end{itemize}
+\end{itemize}
+
+
+\section{Project Goals}
+\begin{enumerate}
+	\setlength\itemsep{.25em}
+	\item{Multiple people can pilot one or more drones (each), optionally from different locations, utilizing the VR environment}
+	\item{Implement a centralized server that tracks all drones and users}
+	\item{Implement a client so that multiple clients can connect to the VR environment and send/receive update}
+	\item{Software/system should support a non-expert user, it should be intuitive }
+	\item{Test the system in a multi-user and multi-drone scenario, and evaluate the usability of the system}
+\end{enumerate}
+
+\section{Priorities}
+\begin{enumerate}
+	\setlength\itemsep{.25em}
+	\item{Analyze existing code (check for modularity)}
+	\item{Set computational goals (networking)}
+	\item{Set computational goals (interface)}
+	\item{Decide what functionality exists on the "server side" and what functionality exists on the "client side"}
+	\item{Multiple Users w/ one drone each}
+	\item{Synchronize user/drone communication}
+	\item{Multiple users w/ multiple drones each}
+	\item{Optimize for outdoor use}
+\end{enumerate}
+
+\section{Scope}
+Our project is intended to be used in a controlled environment (the drone lab in MDD) with aspirations of being extended for use in an outdoor controlled environment leveraging precise GPS technology. Upon completion of the project we plan on authoring a paper to be submitted to a conference with Dr. Srik. 	
+
+\section{Timeline}
+\scalebox{1}{
+\begin{tabular}{r |@{\foo} l}
+
+Friday, October 13, 2017 & Evaluate the existing system and determine where modifications need to be made\\
+Friday, December 15, 2017 & Implementing client and server, define failure modes and handling, form architecture plan\\
+Friday, December 15, 2017 & Make sure the system works on actual hardware not flying on a drone\\
+TBD & Full system integration and flight test\\
+TBD & Polishing, reviewing documentation, stretch goals (outdoor flying)\\
+
+\end{tabular}
+}
+
+
+\section{Deliverables}
+\begin{itemize}
+	\setlength\itemsep{.25em}
+	\item{What are the major outputs of the projects}
+		\begin{itemize}
+			\setlength\itemsep{.25em}
+			\item{Deliverable 1}
+			\begin{itemize}
+				\setlength\itemsep{.25em}
+				\item{Documentation detailing how current system works}
+				\item{Written documentation detailing what needs to be modified in the existing codebase}
+			\end{itemize}
+		\end{itemize}
+		\begin{itemize}
+			\setlength\itemsep{.25em}
+			\item{Deliverable 2}
+			\begin{itemize}
+			\setlength\itemsep{.25em}
+				\item{A server that acts like a flight tower, sending flight path info and positioning to clients}
+				\item{Client that receives info from server, renders drone accurately in VR environment}
+				\item{Client allows user to manipulate the drone in a VR environment. Sends data to server to distribute}
+				\item{Client/server system fully integrated in the existing software}
+			\end{itemize}
+		\end{itemize}
+		\begin{itemize}
+			\setlength\itemsep{.25em}
+			\item{Deliverable 3}
+			\begin{itemize}
+				\setlength\itemsep{.25em}
+				\item{Full system integration and flight test}
+			\end{itemize}
+		\end{itemize}
+		\begin{itemize}
+			\setlength\itemsep{.25em}
+			\item{Deliverable 4}
+				\begin{itemize}
+					\item{Polished product}
+					\item{Reviewed documentation}
+					\item{Stretch goals}
+				\end{itemize}
+			\end{itemize}
+\end{itemize}
+\begin{itemize}
+	\setlength\itemsep{.25em}
+	\item{What are measures of project success:}
+		\begin{itemize}
+			\setlength\itemsep{.25em}
+			\item{If multiple users can pilot multiple drones at once, this project is considered "almost there".}
+			\item{If the users can see the existing paths through the visualizations  and access flight information of the other drones to avoid traffic conflicts, this project is considered successful. }
+		\end{itemize}
+\end{itemize}
+\begin{itemize}
+	\setlength\itemsep{.25em}
+	\item{What is promised to the customer: }
+		\begin{itemize}
+			\setlength\itemsep{.25em}
+			\item{We aim to create an integrated system that allows for multiple drones to be piloted by multiple users through a virtualized environment. Appropriate deconfliction to prevent accidents is an extended goal. } 
+		\end{itemize}
+\end{itemize}
+
+\section{Stakeholders}
+\begin{enumerate}
+	\setlength\itemsep{.25em}
+	\item{Industries requiring frequent drone usage}
+	\item{Researchers in remote drone technologies}
+	\item{Dr. Srikanth Gururajan and Dr. David Ferry (Publication interests)}
+	\item{VR enthusiasts}
+\end{enumerate}
+
+\section{Resource Requirements}
+Most of the hardware is already provided for this project, such as a Raspberry Pi and drones created by the Aerospace engineering department.  Leap motion controllers (wireless and 3D supported motion sensors) are employed for controlling the drone rigidbodies and modeling applications such as Unity will be used for the efficacy of the visualization. This project extends on previous work and access has been giving to the existing codebase.
+
+\newpage 
+
+\section{Signatures}
+
+
+\hspace{2mm}  Students:
+
+\vspace{5mm}
+\underline{\hspace{10cm}}
+\vspace{5mm}
+
+\underline{\hspace{10cm}}
+\vspace{5mm}
+
+\underline{\hspace{10cm}}
+\vspace{5mm}
+
+Supervisor:
+
+\vspace{5mm}
+\underline{\hspace{10cm}}
+\vspace{5mm}
+
+Instructor:
+
+\vspace{5mm}
+\underline{\hspace{10cm}}
+
+\end{document}

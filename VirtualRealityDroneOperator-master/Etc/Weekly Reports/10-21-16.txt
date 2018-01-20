@@ -1,0 +1,4 @@
+This week we met with Srik to test out the development we did for our virtual reality scene. We got a basic gesture working with Leap Motion to print a string the the scene.
+
+Next week we plan on continuing development of the scene in Unreal Engine.
+

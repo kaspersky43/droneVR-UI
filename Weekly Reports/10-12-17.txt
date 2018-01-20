@@ -1,0 +1,1 @@
+Devised outlines and composed slides for the Deliverable #1 with Dr. Ferry, made sure all the members are on the same page of progression and the understanding of the topic. Further discussed the functions that the server must be able to do and the relations between the client master PCs and the server for interconnectivity.

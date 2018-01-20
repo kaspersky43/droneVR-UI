@@ -1,0 +1,5 @@
+This week our entire group spent our time completing the requirements specification document. We've also got the user's hands showing in Unreal Engine in the scene through the use of LeapMotion. 
+
+We took some initial screenshots of the scene in order to begin designing the HUD we have in mind for the operator. We'll be preparing for our midterm presentation next Tuesday.
+
+One small challenge we'll be tackling soon is source controlling our scene development in UnrealEngine.

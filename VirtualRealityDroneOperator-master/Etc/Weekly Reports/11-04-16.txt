@@ -1,0 +1,5 @@
+This week we focused on the implementation of two items. 
+
+First, we successfully implemented an initial look-based interaction feature for our virtual scene. An interaction is triggered when the operator is looking at a particular object. 
+
+Second, we made progress on interactions between the operator's Leap Motion hand and our HUD elements, and are now able to detect hits between the two elements. Our primary focus this week will be to use the blueprints in Unreal Engine to provide restrictions on the hit detections. For example, we would only like the hit to detect when the pointer finger of the right hand touches a HUD element.

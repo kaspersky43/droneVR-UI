@@ -1,0 +1,1 @@
+For the final version of the project plan we discussed and agreed on building a simplistic Server/Client model architecture desgin tentatively and decided to spend more time perusing the code. We are also expecting the demonstration from the past team. 

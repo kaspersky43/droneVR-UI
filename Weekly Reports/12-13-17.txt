@@ -1,0 +1,5 @@
+Major edits to the UI of the UE4 Engine based user interface and added the assets. Still keyboard-occulus input switch not happening but learning UE4 Editor in process
+
+I (Austin) plan to get a new laptop during the vacation since my laptop is running a bit funny that it cannot allow the full functionality of the required software package including the Unreal Engine at times not making me able to work it on my PC as much.
+
+We are currently working on the Deliverable 2 presentation for Dec 14th. 

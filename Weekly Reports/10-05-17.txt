@@ -1,0 +1,3 @@
+Made sure we are fully adequately equipped for the required hardwares in the laboratory, upgraded the master PC for a better operational OS to update background technology for flying the drones. Discussed plans perusing codebase together.
+
+Noticed that the said system works only on the local machines inside the local environment of the laboratory, improved the codebase to pick up automatically the local IP address from each access point rather than hard-coding IP

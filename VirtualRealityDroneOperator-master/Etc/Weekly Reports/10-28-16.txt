@@ -1,0 +1,5 @@
+This week our group continued development of our heads up display in the virtual reality scene in UnrealEngine. We're using static meshes with our own images to create the elements of the HUD.
+
+We've also created a preliminary class diagram for the code that will handle data passed between the cameras, master computer, and drones.
+
+Next week we'd like to add interaction for the HUD elements.

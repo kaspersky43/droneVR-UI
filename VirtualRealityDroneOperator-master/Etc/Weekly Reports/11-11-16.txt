@@ -1,0 +1,5 @@
+This week we made further progress on our virtual reality scene in Unreal Engine. We have created the ability to specify specific parts of the Leap Motion hand, e.g. the right index pointer finger, to select elements of our HUD. Selecting the 'sphere' button now toggles a 3-d spherical shield on each of the drones in the scene. We've added a timer to our look based interaction, which features two seconds of looking at a drone to select it. 
+
+In addition to our work in Unreal Engine, we have begun working with the Raspberry Pi and DroneKit to investigate sending mock location data to the drones.
+
+Next week we'll continue implementing the features of our scene, including the 3-d grid button, gestures to enable/disable the HUD, and interactive buttons when a drone is selected.

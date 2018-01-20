@@ -1,0 +1,1 @@
+For the modification in the UI design and the addition of assets please refer to to the first git commit made in December 13th

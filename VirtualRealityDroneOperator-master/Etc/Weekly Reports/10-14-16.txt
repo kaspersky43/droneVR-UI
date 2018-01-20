@@ -1,0 +1,5 @@
+This week our group primarily worked on the preparation of our midterm presentation and presented it to the CS faculty.
+
+Our presentation primarily focused on detailing a concept design of the heads up display for our virtual reality scene, and describing how the technologies we're using will work together.
+
+Next week we will begin creating the HUD in UnrealEngine.

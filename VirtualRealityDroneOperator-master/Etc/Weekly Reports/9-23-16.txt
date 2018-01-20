@@ -1,0 +1,3 @@
+This week we began developing our virtual reality scene using UnrealEngine. 
+We also began outlining our document for the requirements specification. 
+We will meet with Srik in the afternoon to continue installation setup on the lab PC. 

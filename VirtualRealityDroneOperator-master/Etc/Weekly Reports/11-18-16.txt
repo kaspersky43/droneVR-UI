@@ -1,0 +1,7 @@
+This week we began implementing multiple gestures that our environment will need. A left peripheral swipe up or down now enables and disables the HUD. Toggling on the movement HUD icon and swiping forward or away moves the character forward and back. We've also replaced the placeholder drones in the scene with 3-D models of the drone we'll be using, and were able to smoothly transition the related functions to the 3-D model. A crude implementation of the 3-D grid across the scene has also been implemented, and can be toggled using its respected HUD button.
+
+We're continuing work with the Pi and have installed the necessary applications installed on it.
+
+This Friday we're going to meet with Srik to test out flying a drone in his lab. We'll collect data using OptiTrack so that we'll have test data to feed into our virtual scene.
+
+Next week we'll utilize the data we collected to interface with our scene, along with continuous additions to it.

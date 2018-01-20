@@ -1,0 +1,1 @@
+This week we added the last HUD elements of our virtual scene, the move and land/takeoff buttons. Primarily we worked on our design document for our second deliverable. We also began working on the presentation that we'll be giving next Monday.

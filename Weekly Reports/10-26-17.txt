@@ -1,0 +1,5 @@
+Today our group gathered to discuss the further detailed discussion with Dr. Ferry and discussed the further detailed requirements that the server, client, and the demonstration should do, and which codebase and which functionality must be implemented.
+
+The responsibility was divided between server, client, and demo and we discussedthe phase plans for building the codebase and the design of the system architecture. 
+
+We worked on the networking libraries to start creating server documentations and analyzed the networking properties. 

@@ -1,0 +1,4 @@
+Today still the hardware problems are not very much fixed but we are trying to get it solved as soon as possible as we are waiting for the demonstration sessions from the former team as well regarding the project
+
+
+Logan and Kyle modified our UDPClient to intercept the json messages moving from the VR system and direct them to the UDPServer. We wrote a handler function to manage the messages and look for some header data containing the id of the drone the message is intended for. I wrote a function to send the message to the drone, but our drone has gone missing so I can really test it....

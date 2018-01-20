@@ -1,0 +1,1 @@
+We decided that the there would be the change in the architecture plan of the system, instead of setting the second VR client we decided to improve the dictionary system inside the server to further facilitate the efficiency of the drone management protocol.

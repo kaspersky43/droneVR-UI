@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\VRDO_V2.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{42F2393F-D5F5-4FD9-9E7C-5549917F3BB8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\VRDO_V2.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\VRDO_V2Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{17E4352B-F9D9-4A40-9592-FAD7BFBF0FE4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultScalability.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\VRDO_V2">
+			<UniqueIdentifier>{7E2C9E72-9880-44CD-A02F-16120796C83D}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\VRDO_V2\ProtocolInActorComponent.cpp">
+			<Filter>Source\VRDO_V2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VRDO_V2\ProtocolInActorComponent.h">
+			<Filter>Source\VRDO_V2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\VRDO_V2\ProtocolOutActorComponent.cpp">
+			<Filter>Source\VRDO_V2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VRDO_V2\ProtocolOutActorComponent.h">
+			<Filter>Source\VRDO_V2</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\VRDO_V2\VRDO_V2.Build.cs">
+			<Filter>Source\VRDO_V2</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\VRDO_V2\VRDO_V2.cpp">
+			<Filter>Source\VRDO_V2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VRDO_V2\VRDO_V2.h">
+			<Filter>Source\VRDO_V2</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
