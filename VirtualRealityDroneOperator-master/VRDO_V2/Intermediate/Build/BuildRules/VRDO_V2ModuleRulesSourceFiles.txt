@@ -1,3 +1,3 @@
-C:\git\VirtualRealityDroneOperator\VRDO_V2\Source\VRDO_V2\VRDO_V2.Build.cs
-C:\git\VirtualRealityDroneOperator\VRDO_V2\Source\VRDO_V2.Target.cs
-C:\git\VirtualRealityDroneOperator\VRDO_V2\Source\VRDO_V2Editor.Target.cs
+C:\Users\yangw\Desktop\droneVR\VirtualRealityDroneOperator-master\VRDO_V2\Source\VRDO_V2\VRDO_V2.Build.cs
+C:\Users\yangw\Desktop\droneVR\VirtualRealityDroneOperator-master\VRDO_V2\Source\VRDO_V2.Target.cs
+C:\Users\yangw\Desktop\droneVR\VirtualRealityDroneOperator-master\VRDO_V2\Source\VRDO_V2Editor.Target.cs

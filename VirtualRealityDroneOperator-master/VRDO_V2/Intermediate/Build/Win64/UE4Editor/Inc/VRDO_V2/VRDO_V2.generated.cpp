@@ -6,18 +6,19 @@
 ===========================================================================*/
 
 #include "VRDO_V2.h"
+#include "GeneratedCppIncludes.h"
 #include "VRDO_V2.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1VRDO_V2() {}
 	void UProtocolInActorComponent::StaticRegisterNativesUProtocolInActorComponent()
 	{
 	}
-	IMPLEMENT_CLASS(UProtocolInActorComponent, 2052330684);
+	IMPLEMENT_CLASS(UProtocolInActorComponent, 1531353190);
 	void UProtocolOutActorComponent::StaticRegisterNativesUProtocolOutActorComponent()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UProtocolOutActorComponent::StaticClass(), "SendOutput",(Native)&UProtocolOutActorComponent::execSendOutput);
 	}
-	IMPLEMENT_CLASS(UProtocolOutActorComponent, 2348314620);
+	IMPLEMENT_CLASS(UProtocolOutActorComponent, 3357225224);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_UActorComponent();
@@ -61,7 +62,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("BlueprintSpawnableComponent"), TEXT(""));
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
-				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("ComponentReplication"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ProtocolInActorComponent.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ProtocolInActorComponent.h"));
 				MetaData->SetValue(NewProp_angZ, TEXT("Category"), TEXT("ProtocolInActorComponent"));
@@ -146,7 +146,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("BlueprintSpawnableComponent"), TEXT(""));
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
-				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("ComponentReplication"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ProtocolOutActorComponent.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ProtocolOutActorComponent.h"));
 				MetaData->SetValue(NewProp_posZ, TEXT("Category"), TEXT("ProtocolOutActorComponent"));
@@ -171,7 +170,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/VRDO_V2")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x8741A296;
+			Guid.A = 0x53C7B216;
 			Guid.B = 0x4A15AA63;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

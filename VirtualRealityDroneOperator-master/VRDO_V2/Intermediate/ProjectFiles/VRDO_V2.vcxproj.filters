@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\VRDO_V2.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{BF15ED63-09F1-4D96-9149-8288CC2ABE09}</UniqueIdentifier>
+			<UniqueIdentifier>{737250DF-8772-4D2E-B147-16F4F02F14B3}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\VRDO_V2.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{4A4D161A-C458-40B7-AEE1-084D967F48B7}</UniqueIdentifier>
+			<UniqueIdentifier>{B141BF72-CC60-405B-B32D-A8F43861F596}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -34,7 +34,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\VRDO_V2">
-			<UniqueIdentifier>{5C908BDE-D5B7-4E02-920C-030B2F50553C}</UniqueIdentifier>
+			<UniqueIdentifier>{DD73EE2A-368A-4BD4-9A67-BF1EF00FBF5E}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\VRDO_V2\ProtocolInActorComponent.cpp">
 			<Filter>Source\VRDO_V2</Filter>

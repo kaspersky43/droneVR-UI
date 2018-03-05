@@ -5,8 +5,6 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectBase.h"
-
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef VRDO_V2_ProtocolInActorComponent_generated_h
 #error "ProtocolInActorComponent.generated.h already included, missing '#pragma once' in ProtocolInActorComponent.h"
@@ -61,10 +59,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UProtocolInActorComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UProtocolInActorComponent)
 
 
+#define VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_PRIVATE_PROPERTY_OFFSET
 #define VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_15_PROLOG
 #define VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_PRIVATE_PROPERTY_OFFSET \
 	VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_RPC_WRAPPERS \
 	VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_INCLASS \
 	VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_STANDARD_CONSTRUCTORS \
@@ -75,6 +75,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_PRIVATE_PROPERTY_OFFSET \
 	VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
 	VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_INCLASS_NO_PURE_DECLS \
 	VRDO_V2_Source_VRDO_V2_ProtocolInActorComponent_h_18_ENHANCED_CONSTRUCTORS \

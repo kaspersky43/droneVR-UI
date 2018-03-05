@@ -6,11 +6,12 @@
 	"Version" : 
 	{
 		"MajorVersion" : 4,
-		"MinorVersion" : 13,
-		"PatchVersion" : 2,
-		"Changelist" : 3172292,
+		"MinorVersion" : 14,
+		"PatchVersion" : 3,
+		"Changelist" : 3249277,
+		"CompatibleChangelist" : 3195953,
 		"IsLicenseeVersion" : 0,
-		"BranchName" : "++UE4+Release-4.13"
+		"BranchName" : "++UE4+Release-4.14"
 	},
 	"BuildProducts" :
 	[
@@ -59,6 +60,10 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Editor/AudioCapture/AudioCapture.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -138,7 +143,7 @@
 			"Type" : "UFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Plugins/OptitrackNatnet/OptitrackNatnet.uplugin",
+			"Path" : "$(EngineDir)/Plugins/OptiTrack/OptitrackNatnet/OptitrackNatnet.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -158,11 +163,11 @@
 			"Type" : "UFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/GearVR/GearVR.uplugin",
+			"Path" : "$(EngineDir)/Plugins/Runtime/LeapMotion/LeapMotion.uplugin",
 			"Type" : "UFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/LeapMotion/LeapMotion.uplugin",
+			"Path" : "$(EngineDir)/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -198,7 +203,15 @@
 			"Type" : "UFS"
 		},
 		{
+			"Path" : "$(EngineDir)/Content/SlateDebug/...",
+			"Type" : "UFS"
+		},
+		{
 			"Path" : "$(ProjectDir)/Content/Slate/...",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Content/SlateDebug/...",
 			"Type" : "UFS"
 		}
 	]
